@@ -192,63 +192,6 @@ header .shine-gif {
     }
 }
 
-/* General Styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Press Start 2P', cursive;
-    background-color: #f5e2e1;
-    color: #333;
-    box-sizing: border-box;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-}
-
-
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
-    width: 100%;
-}
-
-/* Logo */
-header .logo {
-    display:block;
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: #d44782;
-}
-
-/* Navigation */
-header nav {
-    display: flex;
-    gap: 10px;
-}
-
-header nav a {
-    font-size: 1.2rem;
-    color: #d44782;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-/* Shine GIF */
-header .shine-gif {
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    top: 50%;
-    left: 170px;
-    transform: translateY(-50%);
-    z-index: 10;
-}
 
 /* Hero Section */
 .hero {
