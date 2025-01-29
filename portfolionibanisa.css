@@ -266,7 +266,6 @@ header .shine-gif {
     bottom: 20px;
     right: 80px;
       border: 4px solid rgb(255, 117, 140); /* Inner pink border */
-  outline: 6px solid white; /* Outer white border */
   border-radius: 10px; /* Optional: Rounded corners */
   padding: 5px; /* Adds space inside the outline */
   background-color: white; /* Ensure the box has a white background */
